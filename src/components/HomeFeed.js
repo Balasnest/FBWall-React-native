@@ -65,7 +65,7 @@ class HomeFeed extends Component {
 					<Input
 						placeholder="write a new post"
 						value={this.state.content}
-          				onChangeText={onChangeText}
+          				onChangeText={this.onChangeText}
 					/>
 					<Button onPress={this.onPressNewPost} style={buttonSize}>
 						<Text> Post </Text>
